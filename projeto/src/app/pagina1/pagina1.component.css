@@ -1,0 +1,67 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.brand-area{
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.brand-img{
+    width: 130px;
+}
+.line{
+    background-color: #101010;
+    width: 1px;
+    height: 40px;
+}
+
+.main-list{
+    display: flex;
+    margin-left: 35px;
+}
+.open{
+    gap: 20px;
+}
+.menu-text>a{
+    color: #101010;
+    user-select: none;
+}
+
+
+
+.contato{
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.texts{
+    width: 500px;
+    height: 60vh;
+}
+.main-page>img{
+    width: 600px;
+}
+
+@media(max-width:800px){
+.open{
+    flex-direction: column;
+    position: absolute;
+    margin-top: -10px;
+}
+}
