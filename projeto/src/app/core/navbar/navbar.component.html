@@ -1,29 +1,22 @@
-<header class="area">
-    <nav class="nav-bar">
-
-        <div class="brand-area">
-            <img class="brand-img" src="../../../assets/img/brand.png" alt="brand">
-            <div class="line"></div>
+<header>
+    <nav>
+        <img src="../../../assets/img/brand.png" alt="brand" class="brand">
+        <div class="mobile-icon" id="mobile-icon" (click)="menuclick()">
+            <div id="linha1"></div>
+            <div id="linha2"></div>
+            <div id="linha3"></div>
         </div>
-
-        <div class="menu">
-            <div class="mobile-menu" id="mobile-icon" (click)="menuclick()">
-                <div class="linha1" id="linha1"></div>
-                <div class="linha2" id="linha2"></div>
-                <div class="linha3" id="linha3"></div>
-            </div>
-            <ul class="nav-list" id="nav-list">
-                <li><a ></a>Sobre</li>
-                <li><a ></a>Dominios</li>
-                <li><a ></a>Projetos</li>
-                <li class="contato-nav-list"><a>Contato</a></li>
-            </ul>
+        <ul class="nav-list" id="nav-list">
+            <li><a>Sobre</a></li>
+            <li><a>Dominios</a></li>
+            <li><a>Projetos</a></li>
+            <li class="contato-mobile"><a>Contato</a></li>
+        </ul>
+        <div class="right-list">
+            <li class="contato-desktop">Contato</li>
         </div>
-
-        <div class="contato">
-            <li><a>Contato</a></li>
-            <img src="" alt="">
-        </div>
-
     </nav>
 </header>
+
+
+
