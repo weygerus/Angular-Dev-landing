@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Montserrat:wght@400;600;800&family=Palanquin+Dark&display=swap');
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: roboto;
+    font-family: 'Palanquin Dark', sans-serif;
     text-decoration: none;
     overflow-x: hidden;
 }
 a{
     cursor: pointer;
+}
+
+
+
+:root{
+    --bg-escuro: #0b0a0f;
 }

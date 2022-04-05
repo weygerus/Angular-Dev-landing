@@ -1,0 +1,72 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color:#fafafa;
+}
+.brand-area{
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.brand-img{
+    width: 130px;
+}
+.line{
+    background-color: #101010;
+    width: 1.5px;
+    height: 40px;
+}
+
+/* MENU */
+.menu{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.mobile-menu{
+    height: 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+    margin-top: -7px;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.linha1,.linha2,.linha3 {
+    width: 20px;
+    height: 1.5px;
+    background:#101010;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+.mobile-menu{
+    cursor: pointer;
+}
+.contato-nav-list{
+   visibility: hidden;
+}
+/* FIM */
+
+
+.contato{
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 50px;
+    visibility: visible;
+}
+
+
+
+@media (max-width: 850px){
+    .contato{
+        visibility: hidden;
+    }
+    .contato-nav-list{
+        visibility: visible;
+    }
+}

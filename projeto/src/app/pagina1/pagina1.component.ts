@@ -9,19 +9,18 @@ export class Pagina1Component implements OnInit {
 
   constructor() { }
 
-  public mostrarmenu    : boolean = false;
+  public mostrarmenu : boolean = false;
 
   ngOnInit(): void {
-    this.menuclick()
   }
 
   menuclick(){
-    if(this.mostrarmenu == false){
-      this.mostrarmenu   = true
-    }else{
-      this.mostrarmenu = false
+    if(document.getElementById('line-1')!.style.transform = 'rotate(0deg)'){
+      document.getElementById('line-1')!.style.transform  = 'rotate(45deg)'
     }
+
   }
+  
 
 
 
