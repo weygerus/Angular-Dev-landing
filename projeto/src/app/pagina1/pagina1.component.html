@@ -18,23 +18,71 @@
     </section>
 
     <section class="sobre">
-        <div class="img-area">
-            <img src="../../assets/img/img-sobre.svg" class="img" alt="">
+
+            <div class="img-area">
+                <img src="../../assets/img/img-sobre.svg" class="img" alt="">
+            </div>
+            <div class="text-area">
+                <h3 class="sobre-title">Sobre</h3>
+                <p class="sobre-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a aut tenetur voluptates cumque repellendus culpa iure soluta! Temporibus, eveniet nulla inventore consequuntur, qui distinctio doloribus possimus rerum quisquam minus voluptatem? In eveniet laborum nesciunt fuga cumque optio nemo animi minus numquam eos delectus minima doloremque aspernatur reiciendis beatae nobis accusantium, temporibus repellendus sit dolorum.</p>
+            </div>
+
+    </section>
+
+
+    <section class="dom">
+        <div class="area">
+            <div class="card">
+
+            </div>
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
         </div>
-        <div class="text-area">
-            <h3 class="sobre-title">Sobre</h3>
-            <p class="sobre-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a aut tenetur voluptates cumque repellendus culpa iure soluta! Temporibus, eveniet nulla inventore consequuntur, qui distinctio doloribus possimus rerum quisquam minus voluptatem? In eveniet laborum nesciunt fuga cumque optio nemo animi minus numquam eos delectus minima doloremque aspernatur reiciendis beatae nobis accusantium, temporibus repellendus sit dolorum.</p>
+        <div class="area">
+            <div class="card">
+
+            </div>
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
         </div>
     </section>
 
 </div>    
     
-<style>
+<style class="dom">
+    .area{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        width:  80%;
+
+    }
+
+    .card{
+        background-color: #ccc;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        border: solid 3px #000;
+
+    }
+</style>
+
+<style class="sobre">
     .sobre{
         height: 80vh;
         display: flex;
-        align-items: center
+        align-items: center;
     }
+
     .img-area{
         width: 50%;
         display: flex;
@@ -50,6 +98,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-right: 50px;
     }
     .sobre-title{
         font-size: max(22px, 2.6vw);       
@@ -59,12 +108,4 @@
         font-size: max(13px, 1.0vw);
         text-align: center;
     }
-    
-
-
-
-
-.section-projetos{
-
-}
 </style>
