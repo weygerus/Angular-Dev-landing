@@ -5,7 +5,6 @@
 }
 
 
-
 .main-page{
     display: flex;
     flex-direction: row-reverse;
@@ -36,12 +35,6 @@ h3{
     font-size: max(18px, 1.4vw);
 }
 
-
-
-
-
-
-
 @media(max-width: 850px){
     .open{
         flex-direction: column;
@@ -64,10 +57,6 @@ h3{
         display: none;
     }
 }
-
-
-
-
 
 .sobre{
     height: 100vh;

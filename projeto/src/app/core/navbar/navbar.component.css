@@ -12,31 +12,31 @@ nav{
 .nav-list{
     display: flex;
     gap: 20px;
-    opacity: 0;
+    opacity: 1;
     transition: 0.2s ease-in;
 }
-.mobile-icon{
-    margin-right: 20px;
-    transition: 0.2s ease-in;
-}
-.mobile-icon div{
-    width: 23px;
-    height: 2px;
-    background-color: #101010;
-    margin: 6px
+.nav-list>li:hover{
+    color: #a106c0;
+    transition: 0.1s ease;
 }
 .contato-mobile{
     opacity: 0;
-    transition: 0.2s;
+}
+.contato-mobile:hover{
+    color:  #a106c0;
+    transition: 0.1s ease;
 }
 .right-list{
     margin-left: auto;
     padding-right: 5%;
     margin-top: 3px;
 }
+.right-list>li:hover{
+    color: #a106c0;
+    transition: 0.1s ease;
+}
 .contato-desktop{
     opacity: 1;
-    transition: 0.2s;
     cursor: pointer;
 }
 
@@ -60,5 +60,18 @@ nav{
     }
     .contato-mobile{
         opacity: 1;
+    }
+    .mobile-icon{
+        opacity: 1;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        transition: 0.2s ease;
+    }
+    #linha1,.linha2,.linha3{
+        width: 40px;
+        height: 10px;
+        background-color: #000;
     }
 }
